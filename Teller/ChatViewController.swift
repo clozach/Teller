@@ -1,15 +1,23 @@
-//
-//  ChatViewController.swift
-//  Teller
-//
-//  Created by Chris Lozac'h on 3/21/15.
-//  Copyright (c) 2015 Chris Lozac'h. All rights reserved.
-//
-
 import UIKit
+
+enum ChatSender {
+    case Automaton
+    case Customer
+}
+
+struct Chat {
+    let text: String
+    let senderType: ChatSender
+}
 
 class ChatViewController: UITableViewController {
 
+    var chats = [
+        Chat(text: "Hi!", senderType: .Automaton),
+        Chat(text: "Welcome to Activehours.", senderType: .Automaton),
+        Chat(text: "Er, thanks...", senderType: .Customer)
+    ]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -32,18 +40,20 @@ class ChatViewController: UITableViewController {
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 30
+        return chats.count
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let chat = chats[indexPath.row]
         var reuseId: String
-        switch indexPath.row {
-        case let s where s%2 == 0:
+        switch chat.senderType {
+        case .Automaton:
             reuseId = "simple_ah_chat_message_cell_id"
         default:
             reuseId = "simple_customer_chat_message_cell_id"
         }
-        let cell = tableView.dequeueReusableCellWithIdentifier(reuseId, forIndexPath: indexPath) as UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier(reuseId, forIndexPath: indexPath) as SimpleTextCell
+        cell.setText(chat.text)
         return cell
     }
 

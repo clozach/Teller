@@ -42,18 +42,23 @@
         <scene sceneID="8GF-zC-oNF">
             <objects>
                 <tableViewController id="xcX-ez-rr5" customClass="ChatViewController" customModule="Teller" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="71" sectionHeaderHeight="22" sectionFooterHeight="22" id="8EP-nr-iUT">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="8EP-nr-iUT">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.015686274510000001" green="0.45882352939999999" blue="0.63529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="nlD-p3-sXO">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="simple_ah_chat_message_cell_id" rowHeight="71" id="6yE-7V-b0v">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="simple_ah_chat_message_cell_id" rowHeight="44" id="6yE-7V-b0v" customClass="SimpleTextCell" customModule="Teller" customModuleProvider="target">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6yE-7V-b0v" id="E2t-TA-LPn">
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KRP-7O-ymA">
-                                            <rect key="frame" x="8" y="25" width="584" height="21"/>
+                                            <rect key="frame" x="8" y="11" width="584" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.90980392156862744" green="0.94901960784313721" blue="0.9882352941176471" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
@@ -63,18 +68,21 @@
                                         <constraint firstItem="KRP-7O-ymA" firstAttribute="trailing" secondItem="E2t-TA-LPn" secondAttribute="trailingMargin" id="SuM-P6-IgB"/>
                                         <constraint firstItem="KRP-7O-ymA" firstAttribute="leading" secondItem="E2t-TA-LPn" secondAttribute="leadingMargin" id="g38-sL-cbk"/>
                                         <constraint firstItem="KRP-7O-ymA" firstAttribute="centerY" secondItem="E2t-TA-LPn" secondAttribute="centerY" id="gMr-OM-aKV"/>
-                                        <constraint firstItem="KRP-7O-ymA" firstAttribute="top" secondItem="E2t-TA-LPn" secondAttribute="topMargin" constant="17" id="zBN-0d-wg1"/>
+                                        <constraint firstItem="KRP-7O-ymA" firstAttribute="top" secondItem="E2t-TA-LPn" secondAttribute="topMargin" constant="3" id="zBN-0d-wg1"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="label" destination="KRP-7O-ymA" id="n4C-Pu-ldA"/>
+                                </connections>
                             </tableViewCell>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="simple_customer_chat_message_cell_id" rowHeight="71" id="9i9-37-VhC">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="simple_customer_chat_message_cell_id" rowHeight="44" id="9i9-37-VhC" customClass="SimpleTextCell" customModule="Teller" customModuleProvider="target">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9i9-37-VhC" id="qdX-gq-5Ig">
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kou-gA-icq">
-                                            <rect key="frame" x="8" y="25" width="584" height="21"/>
+                                            <rect key="frame" x="8" y="11" width="584" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
@@ -83,11 +91,14 @@
                                     <constraints>
                                         <constraint firstItem="kou-gA-icq" firstAttribute="centerY" secondItem="qdX-gq-5Ig" secondAttribute="centerY" id="6hg-zd-WHv"/>
                                         <constraint firstItem="kou-gA-icq" firstAttribute="leading" secondItem="qdX-gq-5Ig" secondAttribute="leadingMargin" id="9HU-hX-N7I"/>
-                                        <constraint firstItem="kou-gA-icq" firstAttribute="top" secondItem="qdX-gq-5Ig" secondAttribute="topMargin" constant="17" id="CCG-is-NTW"/>
+                                        <constraint firstItem="kou-gA-icq" firstAttribute="top" secondItem="qdX-gq-5Ig" secondAttribute="topMargin" constant="3" id="CCG-is-NTW"/>
                                         <constraint firstItem="kou-gA-icq" firstAttribute="trailing" secondItem="qdX-gq-5Ig" secondAttribute="trailingMargin" id="t8b-fh-nm4"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="label" destination="kou-gA-icq" id="KCE-R7-10j"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
