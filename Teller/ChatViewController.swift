@@ -10,13 +10,31 @@ struct Chat {
     let senderType: ChatSender
 }
 
-class ChatViewController: UITableViewController {
+protocol ChatConsumer {
+    func addChat(chat: Chat)
+}
 
-    var chats = [
-        Chat(text: "Hi!", senderType: .Automaton),
-        Chat(text: "Welcome to Activehours.", senderType: .Automaton),
-        Chat(text: "Er, thanks...", senderType: .Customer)
-    ]
+protocol ChatResponder {
+    func chatActionTriggered(chat: Chat)
+}
+
+struct ChatViewModel: ChatResponder {
+    var automatonChats: [String] = []
+    var customerChats: [String] = []
+    
+    func chatActionTriggered(chat: Chat) {
+        println("Action triggered for chat: \(chat.text)")
+    }
+}
+
+class ChatViewController: UITableViewController, ChatConsumer {
+    
+    var chatViewModel = ChatViewModel() // In "real" life, pass this in and declare variable as protocol conformant
+    var chats: [Chat] = []
+    
+    func addChat(chat: Chat) {
+        chats.append(chat)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
