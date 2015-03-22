@@ -14,6 +14,7 @@
 		12E2CF8E1ABE0D3F003DE816 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E2CF8D1ABE0D3F003DE816 /* Images.xcassets */; };
 		12E2CF911ABE0D3F003DE816 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E2CF8F1ABE0D3F003DE816 /* LaunchScreen.xib */; };
 		12E2CF9D1ABE0D3F003DE816 /* TellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E2CF9C1ABE0D3F003DE816 /* TellerTests.swift */; };
+		12E2CFAB1ABE7938003DE816 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E2CFAA1ABE7938003DE816 /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		12E2CF961ABE0D3F003DE816 /* TellerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TellerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E2CF9B1ABE0D3F003DE816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12E2CF9C1ABE0D3F003DE816 /* TellerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TellerTests.swift; sourceTree = "<group>"; };
+		12E2CFAA1ABE7938003DE816 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				12E2CF861ABE0D3F003DE816 /* FirstViewController.swift */,
 				12E2CF881ABE0D3F003DE816 /* SecondViewController.swift */,
 				12E2CF8A1ABE0D3F003DE816 /* Main.storyboard */,
+				12E2CFAA1ABE7938003DE816 /* ChatViewController.swift */,
 				12E2CF8D1ABE0D3F003DE816 /* Images.xcassets */,
 				12E2CF8F1ABE0D3F003DE816 /* LaunchScreen.xib */,
 				12E2CF821ABE0D3F003DE816 /* Supporting Files */,
@@ -217,6 +220,7 @@
 			files = (
 				12E2CF891ABE0D3F003DE816 /* SecondViewController.swift in Sources */,
 				12E2CF851ABE0D3F003DE816 /* AppDelegate.swift in Sources */,
+				12E2CFAB1ABE7938003DE816 /* ChatViewController.swift in Sources */,
 				12E2CF871ABE0D3F003DE816 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +415,7 @@
 				12E2CFA21ABE0D3F003DE816 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12E2CFA31ABE0D3F003DE816 /* Build configuration list for PBXNativeTarget "TellerTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				12E2CFA51ABE0D3F003DE816 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
