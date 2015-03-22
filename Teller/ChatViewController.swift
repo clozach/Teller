@@ -1,5 +1,20 @@
 import UIKit
 
+public func firstAndRest<T>(array: [T]) -> (T?,[T]?) {
+    let numElements = 1 // Allow for future expansion from first to first-N elements
+    if (array.count > numElements) {
+        var result : [T] = []
+        for index in numElements..<array.count {
+            result.append(array[index])
+        }
+        return (array[0], result)
+    } else if array.count == 1 {
+        return (array[0], nil)
+    } else {
+        return (nil, nil)
+    }
+}
+
 enum ChatSender {
     case Automaton
     case Customer
@@ -19,36 +34,51 @@ protocol ChatResponder {
 }
 
 struct ChatViewModel: ChatResponder {
-    var automatonChats: [String] = []
-    var customerChats: [String] = []
+    var chatConsumer: ChatConsumer
     
     func chatActionTriggered(chat: Chat) {
         println("Action triggered for chat: \(chat.text)")
+    }
+    
+    func poke() {
+        presentChatSequence([
+            Chat(text: "Hi!", senderType: .Automaton),
+            Chat(text: "Welcome to Activehours.", senderType: .Automaton),
+            Chat(text: "Er, thanks...", senderType: .Customer)
+            ]
+        )
+    }
+    
+    func presentChatSequence(chats: [Chat]) {
+        let (chat, rest) = firstAndRest(chats)
+        if let chat = chat {
+            1.secondsFromNowDo({ () -> () in
+                self.chatConsumer.addChat(chat)
+                if let rest = rest {
+                    self.presentChatSequence(rest)
+                }
+            })
+        }
     }
 }
 
 class ChatViewController: UITableViewController, ChatConsumer {
     
-    var chatViewModel = ChatViewModel() // In "real" life, pass this in and declare variable as protocol conformant
+    var chatViewModel: ChatViewModel? // In "real" life, pass this in and declare variable as protocol conformant
     var chats: [Chat] = []
     
     func addChat(chat: Chat) {
         chats.append(chat)
+        tableView.reloadData()
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        chatViewModel = ChatViewModel(chatConsumer: self)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func viewDidAppear(animated: Bool) {
+        chatViewModel?.poke()
     }
 
     // MARK: - Table view data source

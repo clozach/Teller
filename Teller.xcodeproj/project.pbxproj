@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12535A9B1ABF58D400EC50A6 /* DoubleDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12535A9A1ABF58D400EC50A6 /* DoubleDelay.swift */; };
 		128D673E1ABE81F100FD0B09 /* SimpleTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D673D1ABE81F100FD0B09 /* SimpleTextCell.swift */; };
 		12E2CF851ABE0D3F003DE816 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E2CF841ABE0D3F003DE816 /* AppDelegate.swift */; };
 		12E2CF871ABE0D3F003DE816 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E2CF861ABE0D3F003DE816 /* FirstViewController.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12535A9A1ABF58D400EC50A6 /* DoubleDelay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleDelay.swift; sourceTree = "<group>"; };
 		128D673D1ABE81F100FD0B09 /* SimpleTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTextCell.swift; sourceTree = "<group>"; };
 		12E2CF7F1ABE0D3F003DE816 /* Teller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E2CF831ABE0D3F003DE816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		12E2CF811ABE0D3F003DE816 /* Teller */ = {
 			isa = PBXGroup;
 			children = (
+				12535A9A1ABF58D400EC50A6 /* DoubleDelay.swift */,
 				12E2CF841ABE0D3F003DE816 /* AppDelegate.swift */,
 				12E2CF861ABE0D3F003DE816 /* FirstViewController.swift */,
 				12E2CF881ABE0D3F003DE816 /* SecondViewController.swift */,
@@ -225,6 +228,7 @@
 				12E2CF851ABE0D3F003DE816 /* AppDelegate.swift in Sources */,
 				12E2CFAB1ABE7938003DE816 /* ChatViewController.swift in Sources */,
 				12E2CF871ABE0D3F003DE816 /* FirstViewController.swift in Sources */,
+				12535A9B1ABF58D400EC50A6 /* DoubleDelay.swift in Sources */,
 				128D673E1ABE81F100FD0B09 /* SimpleTextCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
