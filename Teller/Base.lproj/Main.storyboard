@@ -58,6 +58,7 @@
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pdM-Cc-iUb">
                                     <rect key="frame" x="487" y="53" width="105" height="30"/>
                                     <state key="normal" title="Another Button">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
                                     <connections>
@@ -70,6 +71,7 @@
                                         <constraint firstAttribute="width" constant="105" id="XKL-Pp-W64"/>
                                     </constraints>
                                     <state key="normal" title="Button">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
                                     <connections>
@@ -77,7 +79,7 @@
                                     </connections>
                                 </button>
                             </subviews>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstItem="x5e-9J-7M7" firstAttribute="centerY" secondItem="CA7-W5-paR" secondAttribute="centerY" id="02n-ev-hsb"/>
                                 <constraint firstItem="pdM-Cc-iUb" firstAttribute="baseline" secondItem="x5e-9J-7M7" secondAttribute="baseline" id="HaY-6T-JOE"/>
