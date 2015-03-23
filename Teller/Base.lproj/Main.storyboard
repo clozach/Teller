@@ -66,10 +66,7 @@
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x5e-9J-7M7">
-                                    <rect key="frame" x="340" y="53" width="105" height="30"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="105" id="XKL-Pp-W64"/>
-                                    </constraints>
+                                    <rect key="frame" x="366" y="53" width="47" height="30"/>
                                     <state key="normal" title="Middle">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -79,10 +76,7 @@
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6aO-Xe-j0q" userLabel="Left">
-                                    <rect key="frame" x="227" y="54" width="105" height="30"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="105" id="Oi0-M6-0uI"/>
-                                    </constraints>
+                                    <rect key="frame" x="296" y="54" width="30" height="30"/>
                                     <state key="normal" title="Left">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -95,11 +89,11 @@
                             <color key="backgroundColor" red="0.82739504419191923" green="0.65716741808983437" blue="0.39748031742821854" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
                                 <constraint firstItem="x5e-9J-7M7" firstAttribute="centerY" secondItem="CA7-W5-paR" secondAttribute="centerY" id="02n-ev-hsb"/>
-                                <constraint firstItem="x5e-9J-7M7" firstAttribute="leading" secondItem="6aO-Xe-j0q" secondAttribute="trailing" constant="8" id="9SN-hh-Jyu"/>
+                                <constraint firstItem="x5e-9J-7M7" firstAttribute="leading" secondItem="6aO-Xe-j0q" secondAttribute="trailing" constant="40" id="9SN-hh-Jyu"/>
                                 <constraint firstItem="6aO-Xe-j0q" firstAttribute="baseline" secondItem="x5e-9J-7M7" secondAttribute="baseline" constant="1" id="D43-MM-eb4"/>
                                 <constraint firstItem="pdM-Cc-iUb" firstAttribute="baseline" secondItem="x5e-9J-7M7" secondAttribute="baseline" id="HaY-6T-JOE"/>
                                 <constraint firstAttribute="trailing" secondItem="pdM-Cc-iUb" secondAttribute="trailing" constant="60" id="pbq-0u-A3L"/>
-                                <constraint firstItem="pdM-Cc-iUb" firstAttribute="leading" secondItem="x5e-9J-7M7" secondAttribute="trailing" constant="8" id="t1i-on-Mux"/>
+                                <constraint firstItem="pdM-Cc-iUb" firstAttribute="leading" secondItem="x5e-9J-7M7" secondAttribute="trailing" constant="40" id="t1i-on-Mux"/>
                             </constraints>
                         </view>
                         <prototypes>
