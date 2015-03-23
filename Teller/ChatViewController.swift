@@ -31,16 +31,8 @@ protocol ChatConsumer {
    func addChatChoices(choices: [Chat])
 }
 
-protocol ChatResponder {
-   func chatActionTriggered(chat: Chat)
-}
-
-struct ChatViewModel: ChatResponder {
+struct ChatViewModel {
    var chatConsumer: ChatConsumer
-   
-   func chatActionTriggered(chat: Chat) {
-      println("Action triggered for chat: \(chat.text)")
-   }
    
    func poke() {
       presentChatSequence([
@@ -49,8 +41,9 @@ struct ChatViewModel: ChatResponder {
          ]
       )
       chatConsumer.addChatChoices([
-         Chat(text: "Er, thanks...", senderType: .Customer, action: { println("Wahoo!") })
-         ]
+         Chat(text: "Er, thanks...", senderType: .Customer, action: {
+            println("Wahoo!")
+         })]
       )
    }
    
