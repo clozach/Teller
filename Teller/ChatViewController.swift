@@ -35,25 +35,30 @@ struct ChatViewModel {
    var chatConsumer: ChatConsumer
    
    func poke() {
-      presentChatSequence([
-         Chat(text: "Hi!", senderType: .Automaton, action: nil),
-         Chat(text: "Welcome to Activehours.", senderType: .Automaton, action: nil),
-         ]
-      )
-      chatConsumer.addChatChoices([
-         Chat(text: "Er, thanks...", senderType: .Customer, action: {
-            println("Wahoo!")
-         })]
+      presentChatSequence(
+         [
+            Chat(text: "Hi!", senderType: .Automaton, action: nil),
+            Chat(text: "Welcome to Activehours.", senderType: .Automaton, action: nil),
+         ],
+         choices: [
+            Chat(text: "Er, thanks...", senderType: .Customer, action: {
+               println("Wahoo!")
+            })]
       )
    }
    
-   func presentChatSequence(chats: [Chat]) {
+   func presentChatSequence(chats: [Chat], choices: [Chat]) {
       let (chat, rest) = firstAndRest(chats)
       if let chat = chat {
-         1.secondsFromNowDo({ () -> () in
+         1.secondsFromNowDo({ _ in
             self.chatConsumer.addChat(chat)
             if let rest = rest {
-               self.presentChatSequence(rest)
+               self.presentChatSequence(rest, choices: choices)
+            } else {
+               1.secondsFromNowDo({ _ in
+                  self.chatConsumer.addChatChoices(choices
+                  )
+               })
             }
          })
       }
@@ -115,13 +120,17 @@ class ChatViewController: UITableViewController, ChatConsumer {
    func showLeft(choice: Chat) {
       leftChoice = choice
       leftButton.setTitle(choice.text, forState: .Normal)
-      leftButton.hidden = false
+      1.secondsFromNowDo { _ in
+         self.rightButton.hidden = false
+      }
    }
    
    func showRight(choice: Chat) {
       rightChoice = choice
       rightButton.setTitle(choice.text, forState: .Normal)
-      rightButton.hidden = false
+      1.secondsFromNowDo { _ in
+         self.rightButton.hidden = false
+      }
    }
    
    func scrollToBottom() {
