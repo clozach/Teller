@@ -65,7 +65,7 @@ struct ChatViewModel {
                         )
                      }),
                      Chat(text: "Other...", senderType: .Customer, action: {
-                        // Show alert view w/block
+                        self.getTimesheetSystemName()
                      })
                   ]
                )
@@ -107,6 +107,21 @@ struct ChatViewModel {
             })
          ]
       )
+   }
+   
+   func getTimesheetSystemName() {
+      UIAlertView.showWithTitle("Which one?", message: "Which electronic timesheet system do you use?", style: .PlainTextInput, cancelButtonTitle: "Done", otherButtonTitles: nil, tapBlock: { (alertView: UIAlertView?, buttonIndex: Int) -> Void in
+         if let userInput = alertView?.textFieldAtIndex(0)?.text {
+            self.presentChatSequence([
+               Chat(text: userInput, senderType: .Customer, action: nil),
+               Chat(text: "We don't currently support \(userInput). :(", senderType: .Automaton, action: nil),
+               Chat(text: "You lose.", senderType: .Automaton, action: nil),
+               Chat(text: "Don't worry, though...it's just a demo...", senderType: .Automaton, action: nil),
+               Chat(text: "EVERYBODY loses!", senderType: .Automaton, action: nil),
+               Chat(text: "Bye bye.", senderType: .Automaton, action: nil)
+            ], choices: [])
+         }
+      })
    }
    
    func presentChatSequence(chats: [Chat], choices: [Chat]) {
