@@ -119,7 +119,29 @@ struct ChatViewModel {
                Chat(text: "Don't worry, though...it's just a demo...", senderType: .Automaton, action: nil),
                Chat(text: "EVERYBODY loses!", senderType: .Automaton, action: nil),
                Chat(text: "Bye bye.", senderType: .Automaton, action: nil)
-            ], choices: [])
+            ], choices: [
+               Chat(text: "Tell me when you support \(userInput)", senderType: .Customer, action: {
+                  self.presentChatSequence([
+                     Chat(text: "Let me know when you support \(userInput)", senderType: .Customer, action: nil),
+                     Chat(text: "Sure thing!", senderType: .Automaton, action: nil)], choices: [])
+               }),
+               Chat(text: "At least leave me with some entertainment!", senderType: .Customer, action: { _ in
+                  self.presentChatSequence([
+                     Chat(text: "At least leave me with some entertainment!", senderType: .Customer, action: nil),
+                     Chat(text: "Of course! Take your pick.", senderType: .Automaton, action: nil)
+                     ], choices: [
+                        Chat(text: "Kittens!", senderType: .Automaton, action: { () -> () in
+                           self.launch("https://www.youtube.com/watch?v=loab4A_SqoQ")
+                        }),
+                        Chat(text: "Geekery!", senderType: .Automaton, action: { () -> () in
+                           self.launch("http://arstechnica.com/information-technology/2015/03/for-a-brighter-robotics-future-its-time-to-offload-their-brains/")
+                        }),
+                        Chat(text: "Adult spy humor?", senderType: .Automaton, action: { () -> () in
+                           self.launch("http://dvd.netflix.com/Movie/Archer/70171942")
+                        }),
+                     ])
+               })
+            ])
          }
       })
    }
@@ -138,6 +160,12 @@ struct ChatViewModel {
                })
             }
          })
+      }
+   }
+   
+   func launch(url: String) {
+      if let URL = NSURL(string: url) {
+         UIApplication.sharedApplication().openURL(URL)
       }
    }
 }
