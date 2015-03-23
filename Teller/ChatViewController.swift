@@ -92,12 +92,20 @@ class ChatViewController: UITableViewController, ChatConsumer {
    }
    
    @IBOutlet weak var leftButton: UIButton!
+   @IBOutlet weak var middleButton: UIButton!
    @IBOutlet weak var rightButton: UIButton!
    var leftChoice: Chat?
+   var middleChoice: Chat?
    var rightChoice: Chat?
    @IBAction func leftChoiceSelected() {
       if let action = leftChoice?.action! {
          hideLeft()
+         action()
+      }
+   }
+   @IBAction func middleChoiceSelected() {
+      if let action = middleChoice?.action! {
+         hideMiddle()
          action()
       }
    }
@@ -111,14 +119,18 @@ class ChatViewController: UITableViewController, ChatConsumer {
    func addChatChoices(choices: [Chat]) {
       switch choices.count {
       case 0:
-         hideLeft()
-         hideRight()
+         hideAll()
       case 1:
          hideLeft()
+         hideMiddle()
          showRight(choices[0])
       case 2:
-         showLeft(choices[0])
+         showMiddle(choices[0])
          showRight(choices[1])
+      case 3:
+         showLeft(choices[0])
+         showMiddle(choices[1])
+         showRight(choices[2])
       default:
          println("Too many choices, wtf? Who modified the demo?")
       }
@@ -130,9 +142,20 @@ class ChatViewController: UITableViewController, ChatConsumer {
       leftChoice = nil
    }
    
+   func hideMiddle() {
+      middleButton.hidden = true
+      middleChoice = nil
+   }
+   
    func hideRight() {
       rightButton.hidden = true
       rightChoice = nil
+   }
+   
+   func hideAll() {
+      hideLeft()
+      hideMiddle()
+      hideRight()
    }
    
    func showLeft(choice: Chat) {
@@ -140,6 +163,14 @@ class ChatViewController: UITableViewController, ChatConsumer {
       leftButton.setTitle(choice.text, forState: .Normal)
       1.secondsFromNowDo { _ in
          self.rightButton.hidden = false
+      }
+   }
+   
+   func showMiddle(choice: Chat) {
+      middleChoice = choice
+      middleButton.setTitle(choice.text, forState: .Normal)
+      1.secondsFromNowDo { _ in
+         self.middleButton.hidden = false
       }
    }
    
@@ -162,8 +193,7 @@ class ChatViewController: UITableViewController, ChatConsumer {
    
    override func viewDidLoad() {
       super.viewDidLoad()
-      hideLeft()
-      hideRight()
+      hideAll()
       chatViewModel = ChatViewModel(chatConsumer: self)
    }
    
