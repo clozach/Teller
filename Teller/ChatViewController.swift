@@ -15,6 +15,10 @@ public func firstAndRest<T>(array: [T]) -> (T?,[T]?) {
    }
 }
 
+func between(firstNum: Double, and secondNum: Double) -> Double{
+   return Double(arc4random()) / Double(UINT32_MAX) * abs(firstNum - secondNum) + min(firstNum, secondNum)
+}
+
 enum ChatSender {
    case Automaton
    case Customer
@@ -149,7 +153,7 @@ struct ChatViewModel {
    func presentChatSequence(chats: [Chat], choices: [Chat]) {
       let (chat, rest) = firstAndRest(chats)
       if let chat = chat {
-         1.secondsFromNowDo({ _ in
+         between(0.5, and: 2.0).secondsFromNowDo({ _ in
             self.chatConsumer.addChat(chat)
             if let rest = rest {
                self.presentChatSequence(rest, choices: choices)
