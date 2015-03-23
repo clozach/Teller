@@ -259,6 +259,8 @@ class ChatViewController: UITableViewController, ChatConsumer {
    }
    
    override func viewDidAppear(animated: Bool) {
+      self.chats = []
+      hideAll()
       chatViewModel?.poke()
    }
    
