@@ -42,8 +42,24 @@ struct ChatViewModel {
          ],
          choices: [
             Chat(text: "Er, thanks...", senderType: .Customer, action: {
-               println("Wahoo!")
-            })]
+               self.presentChatSequence(
+                  [
+                     Chat(text: "Er, thanks...", senderType: .Customer, action: nil),
+                     Chat(text: "It's...um", senderType: .Automaton, action: nil),
+                     Chat(text: "SUPER nice to meet you. :-}", senderType: .Automaton, action: nil),
+                  ],
+                  choices: [
+                     Chat(text: "Mop. Mop.", senderType: .Customer, action: {
+                        self.presentChatSequence([
+                           Chat(text: "MOP!", senderType: .Customer, action: nil)
+                           ], choices: [
+                           ]
+                        )
+                     })
+                  ]
+               )
+            })
+         ]
       )
    }
    
@@ -81,11 +97,13 @@ class ChatViewController: UITableViewController, ChatConsumer {
    var rightChoice: Chat?
    @IBAction func leftChoiceSelected() {
       if let action = leftChoice?.action! {
+         hideLeft()
          action()
       }
    }
    @IBAction func rightChoiceSelected() {
       if let action = rightChoice?.action! {
+         hideRight()
          action()
       }
    }
