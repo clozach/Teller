@@ -37,25 +37,71 @@ struct ChatViewModel {
    func poke() {
       presentChatSequence(
          [
-            Chat(text: "There are several ways that you can prove the hours you've worked.", senderType: .Automaton, action: nil),
-            Chat(text: "Welcome to Activehours.", senderType: .Automaton, action: nil),
+            Chat(text: "We have two ways for you to send us your hours.", senderType: .Automaton, action: nil),
+            Chat(text: "Which would you like to set up now?", senderType: .Automaton, action: nil),
          ],
          choices: [
-            Chat(text: "Er, thanks...", senderType: .Customer, action: {
+            Chat(text: "Timesheet system (automatic)", senderType: .Customer, action: {
                self.presentChatSequence(
                   [
-                     Chat(text: "Er, thanks...", senderType: .Customer, action: nil),
-                     Chat(text: "It's...um", senderType: .Automaton, action: nil),
-                     Chat(text: "SUPER nice to meet you. :-}", senderType: .Automaton, action: nil),
+                     Chat(text: "Timesheet system (automatic)", senderType: .Customer, action: nil),
+                     
+                     Chat(text: "Let's give that a shot.", senderType: .Automaton, action: nil),
+                     Chat(text: "Which system do you use?", senderType: .Automaton, action: nil),
                   ],
                   choices: [
-                     Chat(text: "Mop. Mop.", senderType: .Customer, action: {
+                     Chat(text: "When I Work™", senderType: .Customer, action: {
                         self.presentChatSequence([
-                           Chat(text: "MOP!", senderType: .Customer, action: nil)
+                           Chat(text: "When I Work™", senderType: .Customer, action: nil)
                            ], choices: [
                            ]
                         )
+                     }),
+                     Chat(text: "Brink™", senderType: .Customer, action: {
+                        self.presentChatSequence([
+                           Chat(text: "Brink™", senderType: .Customer, action: nil)
+                           ], choices: [
+                           ]
+                        )
+                     }),
+                     Chat(text: "Other...", senderType: .Customer, action: {
+                        // Show alert view w/block
                      })
+                  ]
+               )
+            }),
+            Chat(text: "Photo uploads (manual)", senderType: .Customer, action: {
+               self.presentChatSequence(
+                  [
+                     Chat(text: "OK. Done!", senderType: .Customer, action: nil),
+                     Chat(text: "Well, that is, we've added a camera button down below.", senderType: .Automaton, action: nil),
+                     Chat(text: "Just tap that whenever you're at work and have entered hours into your electronic timesheet", senderType: .Automaton, action: nil),
+                  ],
+                  choices: [
+                     Chat(text: "Got it", senderType: .Customer, action: {
+                        self.presentChatSequence([
+                           Chat(text: "Got it", senderType: .Customer, action: nil)
+                           ], choices: [
+                           ]
+                        )
+                     }),
+                     Chat(text: "I use a paper timesheet.", senderType: .Customer, action: {
+                        self.presentChatSequence([
+                           Chat(text: "I use a paper timesheet.", senderType: .Customer, action: nil),
+                           Chat(text: "OK...", senderType: .Automaton, action: nil),
+                           Chat(text: "...we'll just get that camera button out of your way then.", senderType: .Automaton, action: nil),
+                           Chat(text: "And you're out of luck. Bye bye.", senderType: .Automaton, action: nil),
+                           ], choices: [
+                              Chat(text: "Aw, dangit!", senderType: .Customer, action: {
+                                 self.presentChatSequence([
+                                    Chat(text: "Aw, dangit!", senderType: .Customer, action: nil)
+                                    ], choices: [
+                                    ]
+                                 )
+                              }),
+                           ]
+                        )
+                     }),
                   ]
                )
             })
@@ -99,19 +145,19 @@ class ChatViewController: UITableViewController, ChatConsumer {
    var rightChoice: Chat?
    @IBAction func leftChoiceSelected() {
       if let action = leftChoice?.action! {
-         hideLeft()
+         hideAll()
          action()
       }
    }
    @IBAction func middleChoiceSelected() {
       if let action = middleChoice?.action! {
-         hideMiddle()
+         hideAll()
          action()
       }
    }
    @IBAction func rightChoiceSelected() {
       if let action = rightChoice?.action! {
-         hideRight()
+         hideAll()
          action()
       }
    }
@@ -121,12 +167,12 @@ class ChatViewController: UITableViewController, ChatConsumer {
       case 0:
          hideAll()
       case 1:
-         hideLeft()
+         hideRight()
          hideMiddle()
-         showRight(choices[0])
+         showLeft(choices[0])
       case 2:
          showMiddle(choices[0])
-         showRight(choices[1])
+         showLeft(choices[1])
       case 3:
          showLeft(choices[0])
          showMiddle(choices[1])
@@ -162,7 +208,7 @@ class ChatViewController: UITableViewController, ChatConsumer {
       leftChoice = choice
       leftButton.setTitle(choice.text, forState: .Normal)
       1.secondsFromNowDo { _ in
-         self.rightButton.hidden = false
+         self.leftButton.hidden = false
       }
    }
    

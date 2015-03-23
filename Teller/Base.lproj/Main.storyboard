@@ -52,11 +52,11 @@
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         </view>
                         <view key="tableFooterView" contentMode="scaleToFill" id="CA7-W5-paR">
-                            <rect key="frame" x="0.0" y="154" width="600" height="137"/>
+                            <rect key="frame" x="0.0" y="154" width="600" height="168"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pdM-Cc-iUb">
-                                    <rect key="frame" x="453" y="53" width="87" height="30"/>
+                                    <rect key="frame" x="443" y="92" width="87" height="30"/>
                                     <state key="normal" title="Right Button">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -66,7 +66,7 @@
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x5e-9J-7M7">
-                                    <rect key="frame" x="366" y="53" width="47" height="30"/>
+                                    <rect key="frame" x="483" y="54" width="47" height="30"/>
                                     <state key="normal" title="Middle">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -76,7 +76,7 @@
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6aO-Xe-j0q" userLabel="Left">
-                                    <rect key="frame" x="296" y="54" width="30" height="30"/>
+                                    <rect key="frame" x="500" y="16" width="30" height="30"/>
                                     <state key="normal" title="Left">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -88,12 +88,12 @@
                             </subviews>
                             <color key="backgroundColor" red="0.82739504419191923" green="0.65716741808983437" blue="0.39748031742821854" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
-                                <constraint firstItem="x5e-9J-7M7" firstAttribute="centerY" secondItem="CA7-W5-paR" secondAttribute="centerY" id="02n-ev-hsb"/>
-                                <constraint firstItem="x5e-9J-7M7" firstAttribute="leading" secondItem="6aO-Xe-j0q" secondAttribute="trailing" constant="40" id="9SN-hh-Jyu"/>
-                                <constraint firstItem="6aO-Xe-j0q" firstAttribute="baseline" secondItem="x5e-9J-7M7" secondAttribute="baseline" constant="1" id="D43-MM-eb4"/>
-                                <constraint firstItem="pdM-Cc-iUb" firstAttribute="baseline" secondItem="x5e-9J-7M7" secondAttribute="baseline" id="HaY-6T-JOE"/>
-                                <constraint firstAttribute="trailing" secondItem="pdM-Cc-iUb" secondAttribute="trailing" constant="60" id="pbq-0u-A3L"/>
-                                <constraint firstItem="pdM-Cc-iUb" firstAttribute="leading" secondItem="x5e-9J-7M7" secondAttribute="trailing" constant="40" id="t1i-on-Mux"/>
+                                <constraint firstAttribute="trailing" secondItem="6aO-Xe-j0q" secondAttribute="trailing" constant="70" id="AsH-lv-7VU"/>
+                                <constraint firstItem="6aO-Xe-j0q" firstAttribute="baseline" secondItem="x5e-9J-7M7" secondAttribute="baseline" constant="-38" id="D43-MM-eb4"/>
+                                <constraint firstItem="pdM-Cc-iUb" firstAttribute="baseline" secondItem="x5e-9J-7M7" secondAttribute="baseline" constant="38" id="HaY-6T-JOE"/>
+                                <constraint firstItem="6aO-Xe-j0q" firstAttribute="top" secondItem="CA7-W5-paR" secondAttribute="top" constant="16" id="hGi-lE-d6p"/>
+                                <constraint firstItem="6aO-Xe-j0q" firstAttribute="trailing" secondItem="pdM-Cc-iUb" secondAttribute="trailing" id="lCM-Mp-jtm"/>
+                                <constraint firstItem="6aO-Xe-j0q" firstAttribute="trailing" secondItem="x5e-9J-7M7" secondAttribute="trailing" id="qrV-V9-Wvl"/>
                             </constraints>
                         </view>
                         <prototypes>
