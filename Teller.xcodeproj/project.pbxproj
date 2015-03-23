@@ -17,6 +17,7 @@
 		12E2CF911ABE0D3F003DE816 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E2CF8F1ABE0D3F003DE816 /* LaunchScreen.xib */; };
 		12E2CF9D1ABE0D3F003DE816 /* TellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E2CF9C1ABE0D3F003DE816 /* TellerTests.swift */; };
 		12E2CFAB1ABE7938003DE816 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E2CFAA1ABE7938003DE816 /* ChatViewController.swift */; };
+		1C6EA11647D70C99710CEC7B /* libPods-Teller.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA6527CB7D6455822CB04E1 /* libPods-Teller.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		123FA8E01AC00F4000737879 /* Teller-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Teller-Bridging-Header.h"; sourceTree = "<group>"; };
 		12535A9A1ABF58D400EC50A6 /* DoubleDelay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleDelay.swift; sourceTree = "<group>"; };
 		128D673D1ABE81F100FD0B09 /* SimpleTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTextCell.swift; sourceTree = "<group>"; };
 		12E2CF7F1ABE0D3F003DE816 /* Teller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teller.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,9 @@
 		12E2CF9B1ABE0D3F003DE816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12E2CF9C1ABE0D3F003DE816 /* TellerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TellerTests.swift; sourceTree = "<group>"; };
 		12E2CFAA1ABE7938003DE816 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		8DA6527CB7D6455822CB04E1 /* libPods-Teller.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Teller.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EFDA704C09445F670B6D4D8 /* Pods-Teller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teller.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Teller/Pods-Teller.debug.xcconfig"; sourceTree = "<group>"; };
+		FF2E68138DEE6DB6A3369805 /* Pods-Teller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teller.release.xcconfig"; path = "Pods/Target Support Files/Pods-Teller/Pods-Teller.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C6EA11647D70C99710CEC7B /* libPods-Teller.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,12 +70,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10180415A6ED638BB6A83A60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DA6527CB7D6455822CB04E1 /* libPods-Teller.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		12E2CF761ABE0D3F003DE816 = {
 			isa = PBXGroup;
 			children = (
 				12E2CF811ABE0D3F003DE816 /* Teller */,
 				12E2CF991ABE0D3F003DE816 /* TellerTests */,
 				12E2CF801ABE0D3F003DE816 /* Products */,
+				BE3641F30ABAE9D474F5E86E /* Pods */,
+				10180415A6ED638BB6A83A60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +111,7 @@
 				12E2CF8D1ABE0D3F003DE816 /* Images.xcassets */,
 				12E2CF8F1ABE0D3F003DE816 /* LaunchScreen.xib */,
 				12E2CF821ABE0D3F003DE816 /* Supporting Files */,
+				123FA8E01AC00F4000737879 /* Teller-Bridging-Header.h */,
 			);
 			path = Teller;
 			sourceTree = "<group>";
@@ -124,6 +141,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BE3641F30ABAE9D474F5E86E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EFDA704C09445F670B6D4D8 /* Pods-Teller.debug.xcconfig */,
+				FF2E68138DEE6DB6A3369805 /* Pods-Teller.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12E2CFA01ABE0D3F003DE816 /* Build configuration list for PBXNativeTarget "Teller" */;
 			buildPhases = (
+				B3B7C5DD25EEDA9621E75C74 /* Check Pods Manifest.lock */,
 				12E2CF7B1ABE0D3F003DE816 /* Sources */,
 				12E2CF7C1ABE0D3F003DE816 /* Frameworks */,
 				12E2CF7D1ABE0D3F003DE816 /* Resources */,
+				C2FE948205F0A69FB212F10F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,6 +246,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B3B7C5DD25EEDA9621E75C74 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2FE948205F0A69FB212F10F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Teller/Pods-Teller-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		12E2CF7B1ABE0D3F003DE816 /* Sources */ = {
@@ -352,21 +413,25 @@
 		};
 		12E2CFA11ABE0D3F003DE816 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EFDA704C09445F670B6D4D8 /* Pods-Teller.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Teller/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Teller/Teller-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		12E2CFA21ABE0D3F003DE816 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF2E68138DEE6DB6A3369805 /* Pods-Teller.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Teller/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Teller/Teller-Bridging-Header.h";
 			};
 			name = Release;
 		};
