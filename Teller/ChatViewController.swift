@@ -37,7 +37,7 @@ struct ChatViewModel {
    func poke() {
       presentChatSequence(
          [
-            Chat(text: "Hi!", senderType: .Automaton, action: nil),
+            Chat(text: "There are several ways that you can prove the hours you've worked.", senderType: .Automaton, action: nil),
             Chat(text: "Welcome to Activehours.", senderType: .Automaton, action: nil),
          ],
          choices: [

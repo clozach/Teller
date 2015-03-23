@@ -108,15 +108,15 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6yE-7V-b0v" id="E2t-TA-LPn">
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KRP-7O-ymA">
-                                            <rect key="frame" x="8" y="11" width="584" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KRP-7O-ymA">
+                                            <rect key="frame" x="8" y="11" width="504" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.90980392156862744" green="0.94901960784313721" blue="0.9882352941176471" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="KRP-7O-ymA" firstAttribute="trailing" secondItem="E2t-TA-LPn" secondAttribute="trailingMargin" id="SuM-P6-IgB"/>
+                                        <constraint firstItem="KRP-7O-ymA" firstAttribute="trailing" secondItem="E2t-TA-LPn" secondAttribute="trailingMargin" constant="-80" id="SuM-P6-IgB"/>
                                         <constraint firstItem="KRP-7O-ymA" firstAttribute="leading" secondItem="E2t-TA-LPn" secondAttribute="leadingMargin" id="g38-sL-cbk"/>
                                         <constraint firstItem="KRP-7O-ymA" firstAttribute="centerY" secondItem="E2t-TA-LPn" secondAttribute="centerY" id="gMr-OM-aKV"/>
                                         <constraint firstItem="KRP-7O-ymA" firstAttribute="top" secondItem="E2t-TA-LPn" secondAttribute="topMargin" constant="3" id="zBN-0d-wg1"/>
@@ -133,7 +133,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kou-gA-icq">
-                                            <rect key="frame" x="8" y="11" width="584" height="21"/>
+                                            <rect key="frame" x="88" y="11" width="504" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
@@ -141,7 +141,7 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="kou-gA-icq" firstAttribute="centerY" secondItem="qdX-gq-5Ig" secondAttribute="centerY" id="6hg-zd-WHv"/>
-                                        <constraint firstItem="kou-gA-icq" firstAttribute="leading" secondItem="qdX-gq-5Ig" secondAttribute="leadingMargin" id="9HU-hX-N7I"/>
+                                        <constraint firstItem="kou-gA-icq" firstAttribute="leading" secondItem="qdX-gq-5Ig" secondAttribute="leadingMargin" constant="80" id="9HU-hX-N7I"/>
                                         <constraint firstItem="kou-gA-icq" firstAttribute="top" secondItem="qdX-gq-5Ig" secondAttribute="topMargin" constant="3" id="CCG-is-NTW"/>
                                         <constraint firstItem="kou-gA-icq" firstAttribute="trailing" secondItem="qdX-gq-5Ig" secondAttribute="trailingMargin" id="t8b-fh-nm4"/>
                                     </constraints>
