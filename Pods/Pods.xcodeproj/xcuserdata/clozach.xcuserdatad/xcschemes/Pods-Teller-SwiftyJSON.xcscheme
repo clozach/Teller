@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5AB214DAD9B4AF347B81969A"
-               BuildableName = "UIAlertView_Blocks.framework"
-               BlueprintName = "Pods-Teller-UIAlertView+Blocks"
+               BlueprintIdentifier = "5AA8AFBAA1E26757FEBFA6E4"
+               BuildableName = "SwiftyJSON.framework"
+               BlueprintName = "Pods-Teller-SwiftyJSON"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

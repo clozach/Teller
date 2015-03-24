@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-Teller-SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Teller-UIAlertView+Blocks.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>425187ABEAE293B5B97A1FF9</key>
+		<key>57DD0C96D59A75517161DCA9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6647354DB47D966C167EF06D</key>
+		<key>5AA8AFBAA1E26757FEBFA6E4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5AB214DAD9B4AF347B81969A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

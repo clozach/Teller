@@ -1,907 +1,666 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>06F7AA4E4855B33E5173F37A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EBE8D38F2D29E01113D6BD07</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>08D0EF6AE377D78C0E036584</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>0B8389BDFCBDB6DCEC9E01AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3491158B215CB81FA824FE86</string>
-				<string>2C12E38CF9948881E93D9C9F</string>
-				<string>06F7AA4E4855B33E5173F37A</string>
-				<string>6CFF3D259E19F410C8AFC023</string>
-				<string>168D198BD9C6E1AC61A1B6F2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0D9146BE64951BD6BE9A4361</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UIAlertView+Blocks.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>168D198BD9C6E1AC61A1B6F2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8FD0FA5AA1AD2E107730F456</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1C7A92ECF2AA6A0C1B549AA3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC554B1E353CE1987F00A32F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>26025980B3B6F686B5EC85DC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>08D0EF6AE377D78C0E036584</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2C12E38CF9948881E93D9C9F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DA3E1C035246AB8661D86B8D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3282F86DD670EB73D650C64A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Teller-UIAlertView+Blocks</string>
-			<key>target</key>
-			<string>425187ABEAE293B5B97A1FF9</string>
-			<key>targetProxy</key>
-			<string>F892EB13C39063D8248EBE58</string>
-		</dict>
-		<key>3491158B215CB81FA824FE86</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>35F9848BAFF40A9458E6C2C7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>08D0EF6AE377D78C0E036584</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3D696671276AEE784D50D8E1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Teller-UIAlertView+Blocks-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3DD1815C3F5D15478B336F82</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-Teller-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>425187ABEAE293B5B97A1FF9</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>F8E21BAF3C6F1832DAB558E6</string>
-			<key>buildPhases</key>
-			<array>
-				<string>C31FBB58D0968C46033E18F4</string>
-				<string>42C41F6646A1EDED1306827E</string>
-				<string>BA40D31A4D6CFF56BD39DC6E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Teller-UIAlertView+Blocks</string>
-			<key>productName</key>
-			<string>Pods-Teller-UIAlertView+Blocks</string>
-			<key>productReference</key>
-			<string>6D98E3A2D1A10A17529EEAEE</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>42C41F6646A1EDED1306827E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>35F9848BAFF40A9458E6C2C7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>451A56560B268A104BFA78B5</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>3D696671276AEE784D50D8E1</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Teller-UIAlertView+Blocks/Pods-Teller-UIAlertView+Blocks-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>46312B59F7049A91F68898E9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F0A429746B31626D79E3B420</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4DD7A8439A86759A21A9D5AC</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>BA8E7569C6A107F2549B6E57</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>0B8389BDFCBDB6DCEC9E01AB</string>
-			<key>productRefGroup</key>
-			<string>6CFF3D259E19F410C8AFC023</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>6647354DB47D966C167EF06D</string>
-				<string>425187ABEAE293B5B97A1FF9</string>
-			</array>
-		</dict>
-		<key>57C13AC13839A90EB1BBF008</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>C1C5B24950788C0E55C718F0</string>
-				<string>6E4A0519C671143B8FB58961</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>589EF8056EF2396459E179A5</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>6647354DB47D966C167EF06D</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>57C13AC13839A90EB1BBF008</string>
-			<key>buildPhases</key>
-			<array>
-				<string>8D91634224A004C146FEB863</string>
-				<string>A790B07226FE6FB55B8AA447</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>3282F86DD670EB73D650C64A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Teller</string>
-			<key>productName</key>
-			<string>Pods-Teller</string>
-			<key>productReference</key>
-			<string>BBF0A115364AFD0A738E362F</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>6CFF3D259E19F410C8AFC023</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BBF0A115364AFD0A738E362F</string>
-				<string>6D98E3A2D1A10A17529EEAEE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D98E3A2D1A10A17529EEAEE</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-Teller-UIAlertView+Blocks.a</string>
-			<key>path</key>
-			<string>libPods-Teller-UIAlertView+Blocks.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>6E4A0519C671143B8FB58961</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>FC71E40D260749AA564930E7</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>877F52A01F172CAC9769ED0E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Teller-UIAlertView+Blocks-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D91634224A004C146FEB863</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>46312B59F7049A91F68898E9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8E734D516956FCBA47FCFBE8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Teller-UIAlertView+Blocks.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8F05D76F53CAB023535E9FC9</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8FD0FA5AA1AD2E107730F456</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3DD1815C3F5D15478B336F82</string>
-				<string>F1464A8E188444939D839CD7</string>
-				<string>F0A429746B31626D79E3B420</string>
-				<string>B2A29085CED88D8BF7A18E23</string>
-				<string>A47A7FD9ADFA402AC5097824</string>
-				<string>A5BE92EC42EF3F6D9B8D972F</string>
-				<string>FC71E40D260749AA564930E7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Teller</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Teller</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A47A7FD9ADFA402AC5097824</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Teller-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A5BE92EC42EF3F6D9B8D972F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Teller.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A790B07226FE6FB55B8AA447</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>26025980B3B6F686B5EC85DC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B2A29085CED88D8BF7A18E23</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Teller-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B61D021D9452D8A3F2BBDDD6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Teller-UIAlertView+Blocks-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BA40D31A4D6CFF56BD39DC6E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BBF2AF64C773CA72A4DD8CE6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BA8E7569C6A107F2549B6E57</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8F05D76F53CAB023535E9FC9</string>
-				<string>589EF8056EF2396459E179A5</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>BBF0A115364AFD0A738E362F</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-Teller.a</string>
-			<key>path</key>
-			<string>libPods-Teller.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>BBF2AF64C773CA72A4DD8CE6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0D9146BE64951BD6BE9A4361</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC554B1E353CE1987F00A32F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UIAlertView+Blocks.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C1C5B24950788C0E55C718F0</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A5BE92EC42EF3F6D9B8D972F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>C31FBB58D0968C46033E18F4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F47902A3D5E63B9CDA68E238</string>
-				<string>1C7A92ECF2AA6A0C1B549AA3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>CA7C27DBD0164A6EDA942644</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8E734D516956FCBA47FCFBE8</string>
-				<string>3D696671276AEE784D50D8E1</string>
-				<string>B61D021D9452D8A3F2BBDDD6</string>
-				<string>877F52A01F172CAC9769ED0E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-Teller-UIAlertView+Blocks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DA3E1C035246AB8661D86B8D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>08D0EF6AE377D78C0E036584</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E00C51BB82EB07A40506669B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>3D696671276AEE784D50D8E1</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Teller-UIAlertView+Blocks/Pods-Teller-UIAlertView+Blocks-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>EBE8D38F2D29E01113D6BD07</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0D9146BE64951BD6BE9A4361</string>
-				<string>BC554B1E353CE1987F00A32F</string>
-				<string>CA7C27DBD0164A6EDA942644</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>UIAlertView+Blocks</string>
-			<key>path</key>
-			<string>UIAlertView+Blocks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F0A429746B31626D79E3B420</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Teller-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F1464A8E188444939D839CD7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Teller-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F47902A3D5E63B9CDA68E238</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B61D021D9452D8A3F2BBDDD6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F892EB13C39063D8248EBE58</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>4DD7A8439A86759A21A9D5AC</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>425187ABEAE293B5B97A1FF9</string>
-			<key>remoteInfo</key>
-			<string>Pods-Teller-UIAlertView+Blocks</string>
-		</dict>
-		<key>F8E21BAF3C6F1832DAB558E6</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>E00C51BB82EB07A40506669B</string>
-				<string>451A56560B268A104BFA78B5</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FC71E40D260749AA564930E7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Teller.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>4DD7A8439A86759A21A9D5AC</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19ED6C4FAD98C1DAD05FCEA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8467BEF5B99244D7864C72 /* Foundation.framework */; };
+		3997D3DD3BBAD1C6C835CBC2 /* Pods-Teller-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2211E5E0EBC7FDC97E62E3BC /* Pods-Teller-dummy.m */; };
+		4112F7CCB5C607231CA1ED5A /* Pods-Teller-UIAlertView+Blocks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4EC7E89670D56F83C59676A /* Pods-Teller-UIAlertView+Blocks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90DC07496D6F7CD51C3F258C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8467BEF5B99244D7864C72 /* Foundation.framework */; };
+		97E3A532742C899D0FB98FE6 /* Pods-Teller-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A8C8279EA44693C3BB7B26A /* Pods-Teller-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEE83EDAFB801A606EC4DF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8467BEF5B99244D7864C72 /* Foundation.framework */; };
+		A0191E1DFCC09C374494F70C /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFBCCBEF70A4BA632EDA45D /* SwiftyJSON.swift */; };
+		AA04086826D69198A35AC6D2 /* Pods-Teller-SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 579552DFF974B07B44BA0508 /* Pods-Teller-SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAF1005EC8DC8331DF1689C9 /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4DB9C7EC3E992EBDF6EB04 /* UIAlertView+Blocks.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C2800776E4D6A834DCCA9A6F /* UIAlertView+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B8AAECDFFC692214A001FE /* UIAlertView+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED325CB7848E3A65FB394E73 /* Pods-Teller-UIAlertView+Blocks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 788756822AD20437AE42CEDB /* Pods-Teller-UIAlertView+Blocks-dummy.m */; };
+		FBD28DED6BEFDBCA9E24D193 /* Pods-Teller-SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F49387E86A47779243D80C26 /* Pods-Teller-SwiftyJSON-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27CD30505A56C33597463C1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5324D6A263A5157DEA3352B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AA8AFBAA1E26757FEBFA6E4;
+			remoteInfo = "Pods-Teller-SwiftyJSON";
+		};
+		F2CE5F50512130F336BAF45B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5324D6A263A5157DEA3352B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AB214DAD9B4AF347B81969A;
+			remoteInfo = "Pods-Teller-UIAlertView+Blocks";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B8AAECDFFC692214A001FE /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blocks.h"; sourceTree = "<group>"; };
+		05AE7FF12462BDCE1B9CBEC9 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		06495A58C530BBFD47434D0B /* Pods-Teller-SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Teller-SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		06B50ACDBCCF474943148111 /* Pods-Teller-UIAlertView+Blocks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Teller-UIAlertView+Blocks.modulemap"; sourceTree = "<group>"; };
+		0A246DF18875FF0795F584CE /* Pods_Teller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FEAD2C2BD829B763510A565 /* Pods-Teller.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Teller.modulemap"; sourceTree = "<group>"; };
+		1C8467BEF5B99244D7864C72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		21A267BB66CD4D1DE7DA577F /* Pods-Teller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Teller.release.xcconfig"; sourceTree = "<group>"; };
+		2211E5E0EBC7FDC97E62E3BC /* Pods-Teller-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Teller-dummy.m"; sourceTree = "<group>"; };
+		2FFBCCBEF70A4BA632EDA45D /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		34173645C72422FC44508CDD /* Pods-Teller-SwiftyJSON-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Teller-SwiftyJSON-Private.xcconfig"; sourceTree = "<group>"; };
+		418DD55570EFB7FEC527DBC4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		442F67D6E3EEE5B59C087776 /* Pods-Teller-UIAlertView+Blocks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Teller-UIAlertView+Blocks-prefix.pch"; sourceTree = "<group>"; };
+		534ED188E755800EEAE0B86B /* UIAlertView_Blocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIAlertView_Blocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54556ECA355F7C34932A4BED /* Pods-Teller-UIAlertView+Blocks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Teller-UIAlertView+Blocks.xcconfig"; sourceTree = "<group>"; };
+		55BFFB754313E2A2554DB564 /* Pods-Teller-SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Teller-SwiftyJSON.xcconfig"; sourceTree = "<group>"; };
+		579552DFF974B07B44BA0508 /* Pods-Teller-SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Teller-SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		5A8C8279EA44693C3BB7B26A /* Pods-Teller-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Teller-umbrella.h"; sourceTree = "<group>"; };
+		63483D54B70F22145FCFC3FE /* Pods-Teller-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Teller-environment.h"; sourceTree = "<group>"; };
+		6F6B6E8FC17ABCA824D68770 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		788756822AD20437AE42CEDB /* Pods-Teller-UIAlertView+Blocks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Teller-UIAlertView+Blocks-dummy.m"; sourceTree = "<group>"; };
+		8BB0E9F7E9B4C57769DA93E4 /* Pods-Teller-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Teller-resources.sh"; sourceTree = "<group>"; };
+		AEBC615FA805D7661CE23002 /* Pods-Teller-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Teller-acknowledgements.plist"; sourceTree = "<group>"; };
+		C4EC7E89670D56F83C59676A /* Pods-Teller-UIAlertView+Blocks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Teller-UIAlertView+Blocks-umbrella.h"; sourceTree = "<group>"; };
+		C9EE564AF1B058D067C777A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2C21393D258C46978E9302 /* Pods-Teller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Teller.debug.xcconfig"; sourceTree = "<group>"; };
+		DB973C2389181AF6F2F7BD08 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4DB9C7EC3E992EBDF6EB04 /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Blocks.m"; sourceTree = "<group>"; };
+		E466EFA76898A52CA8C8C284 /* Pods-Teller-UIAlertView+Blocks-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Teller-UIAlertView+Blocks-Private.xcconfig"; sourceTree = "<group>"; };
+		F49387E86A47779243D80C26 /* Pods-Teller-SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Teller-SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		F7CC13042C55F2305BB45DE2 /* Pods-Teller-SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Teller-SwiftyJSON.modulemap"; sourceTree = "<group>"; };
+		FB79DBD619AC0790C28C3E28 /* Pods-Teller-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Teller-frameworks.sh"; sourceTree = "<group>"; };
+		FD65560EF26A9B78B9604FBA /* Pods-Teller-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Teller-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		748647D9FF144210383FAA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CEE83EDAFB801A606EC4DF8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CAB4D628209098FF66D268F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90DC07496D6F7CD51C3F258C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBA9C4C3D78CD1A09CC5D3D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19ED6C4FAD98C1DAD05FCEA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07E99E53CB2F8BC13264FBF9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				418DD55570EFB7FEC527DBC4 /* Info.plist */,
+				06B50ACDBCCF474943148111 /* Pods-Teller-UIAlertView+Blocks.modulemap */,
+				54556ECA355F7C34932A4BED /* Pods-Teller-UIAlertView+Blocks.xcconfig */,
+				E466EFA76898A52CA8C8C284 /* Pods-Teller-UIAlertView+Blocks-Private.xcconfig */,
+				788756822AD20437AE42CEDB /* Pods-Teller-UIAlertView+Blocks-dummy.m */,
+				442F67D6E3EEE5B59C087776 /* Pods-Teller-UIAlertView+Blocks-prefix.pch */,
+				C4EC7E89670D56F83C59676A /* Pods-Teller-UIAlertView+Blocks-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Teller-UIAlertView+Blocks";
+			sourceTree = "<group>";
+		};
+		19663E5D24216EC9BB42D837 /* Pods-Teller */ = {
+			isa = PBXGroup;
+			children = (
+				C9EE564AF1B058D067C777A3 /* Info.plist */,
+				0FEAD2C2BD829B763510A565 /* Pods-Teller.modulemap */,
+				FD65560EF26A9B78B9604FBA /* Pods-Teller-acknowledgements.markdown */,
+				AEBC615FA805D7661CE23002 /* Pods-Teller-acknowledgements.plist */,
+				2211E5E0EBC7FDC97E62E3BC /* Pods-Teller-dummy.m */,
+				63483D54B70F22145FCFC3FE /* Pods-Teller-environment.h */,
+				FB79DBD619AC0790C28C3E28 /* Pods-Teller-frameworks.sh */,
+				8BB0E9F7E9B4C57769DA93E4 /* Pods-Teller-resources.sh */,
+				5A8C8279EA44693C3BB7B26A /* Pods-Teller-umbrella.h */,
+				CE2C21393D258C46978E9302 /* Pods-Teller.debug.xcconfig */,
+				21A267BB66CD4D1DE7DA577F /* Pods-Teller.release.xcconfig */,
+			);
+			name = "Pods-Teller";
+			path = "Target Support Files/Pods-Teller";
+			sourceTree = "<group>";
+		};
+		520F95CA12A66ECCCE6F871E /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				2FFBCCBEF70A4BA632EDA45D /* SwiftyJSON.swift */,
+				E8CB2E766F0D855D6632A3D9 /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		595F30A7E82399798A11F76F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				520F95CA12A66ECCCE6F871E /* SwiftyJSON */,
+				AABB2934D3F38FEA01E989A1 /* UIAlertView+Blocks */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		710C2EE62EB0AD435E0A6F00 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19663E5D24216EC9BB42D837 /* Pods-Teller */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		712A06D2E62E4E1DE11C55B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83045008C063B54F47A84D07 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83045008C063B54F47A84D07 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1C8467BEF5B99244D7864C72 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		91335E42FD20F437DD487E8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A246DF18875FF0795F584CE /* Pods_Teller.framework */,
+				DB973C2389181AF6F2F7BD08 /* SwiftyJSON.framework */,
+				534ED188E755800EEAE0B86B /* UIAlertView_Blocks.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AABB2934D3F38FEA01E989A1 /* UIAlertView+Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				00B8AAECDFFC692214A001FE /* UIAlertView+Blocks.h */,
+				DD4DB9C7EC3E992EBDF6EB04 /* UIAlertView+Blocks.m */,
+				07E99E53CB2F8BC13264FBF9 /* Support Files */,
+			);
+			path = "UIAlertView+Blocks";
+			sourceTree = "<group>";
+		};
+		E8CB2E766F0D855D6632A3D9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F6B6E8FC17ABCA824D68770 /* Info.plist */,
+				F7CC13042C55F2305BB45DE2 /* Pods-Teller-SwiftyJSON.modulemap */,
+				55BFFB754313E2A2554DB564 /* Pods-Teller-SwiftyJSON.xcconfig */,
+				34173645C72422FC44508CDD /* Pods-Teller-SwiftyJSON-Private.xcconfig */,
+				F49387E86A47779243D80C26 /* Pods-Teller-SwiftyJSON-dummy.m */,
+				06495A58C530BBFD47434D0B /* Pods-Teller-SwiftyJSON-prefix.pch */,
+				579552DFF974B07B44BA0508 /* Pods-Teller-SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Teller-SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		F9B31176FFD8E18709529482 = {
+			isa = PBXGroup;
+			children = (
+				05AE7FF12462BDCE1B9CBEC9 /* Podfile */,
+				712A06D2E62E4E1DE11C55B0 /* Frameworks */,
+				595F30A7E82399798A11F76F /* Pods */,
+				91335E42FD20F437DD487E8F /* Products */,
+				710C2EE62EB0AD435E0A6F00 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		265ED0D17011F48411F10B5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E3A532742C899D0FB98FE6 /* Pods-Teller-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F929AE6D0E7284F4106477 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4112F7CCB5C607231CA1ED5A /* Pods-Teller-UIAlertView+Blocks-umbrella.h in Headers */,
+				C2800776E4D6A834DCCA9A6F /* UIAlertView+Blocks.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B907A5ED9CE6356D8F2C5FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA04086826D69198A35AC6D2 /* Pods-Teller-SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		57DD0C96D59A75517161DCA9 /* Pods-Teller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 866CE0748CFBA7F106AC74F7 /* Build configuration list for PBXNativeTarget "Pods-Teller" */;
+			buildPhases = (
+				39FB20E041D4AEA423404774 /* Sources */,
+				9CAB4D628209098FF66D268F /* Frameworks */,
+				265ED0D17011F48411F10B5A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				425664D4BD25358A383AD7E2 /* PBXTargetDependency */,
+				E47B379C7DE08F2B6489E81E /* PBXTargetDependency */,
+			);
+			name = "Pods-Teller";
+			productName = "Pods-Teller";
+			productReference = 0A246DF18875FF0795F584CE /* Pods_Teller.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5AA8AFBAA1E26757FEBFA6E4 /* Pods-Teller-SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BFA07D148819142405FAA1B /* Build configuration list for PBXNativeTarget "Pods-Teller-SwiftyJSON" */;
+			buildPhases = (
+				ADAB96B5D5EB5698A0108893 /* Sources */,
+				748647D9FF144210383FAA94 /* Frameworks */,
+				8B907A5ED9CE6356D8F2C5FF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Teller-SwiftyJSON";
+			productName = "Pods-Teller-SwiftyJSON";
+			productReference = DB973C2389181AF6F2F7BD08 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5AB214DAD9B4AF347B81969A /* Pods-Teller-UIAlertView+Blocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C26D22B36AD00FEA3A4B7E3 /* Build configuration list for PBXNativeTarget "Pods-Teller-UIAlertView+Blocks" */;
+			buildPhases = (
+				80D50EDC919F48ECCCFDD0B4 /* Sources */,
+				BBA9C4C3D78CD1A09CC5D3D6 /* Frameworks */,
+				39F929AE6D0E7284F4106477 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Teller-UIAlertView+Blocks";
+			productName = "Pods-Teller-UIAlertView+Blocks";
+			productReference = 534ED188E755800EEAE0B86B /* UIAlertView_Blocks.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5324D6A263A5157DEA3352B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = C50502FA67BA7A5402098709 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F9B31176FFD8E18709529482;
+			productRefGroup = 91335E42FD20F437DD487E8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57DD0C96D59A75517161DCA9 /* Pods-Teller */,
+				5AA8AFBAA1E26757FEBFA6E4 /* Pods-Teller-SwiftyJSON */,
+				5AB214DAD9B4AF347B81969A /* Pods-Teller-UIAlertView+Blocks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39FB20E041D4AEA423404774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3997D3DD3BBAD1C6C835CBC2 /* Pods-Teller-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D50EDC919F48ECCCFDD0B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED325CB7848E3A65FB394E73 /* Pods-Teller-UIAlertView+Blocks-dummy.m in Sources */,
+				BAF1005EC8DC8331DF1689C9 /* UIAlertView+Blocks.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAB96B5D5EB5698A0108893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD28DED6BEFDBCA9E24D193 /* Pods-Teller-SwiftyJSON-dummy.m in Sources */,
+				A0191E1DFCC09C374494F70C /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		425664D4BD25358A383AD7E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Teller-SwiftyJSON";
+			target = 5AA8AFBAA1E26757FEBFA6E4 /* Pods-Teller-SwiftyJSON */;
+			targetProxy = 27CD30505A56C33597463C1D /* PBXContainerItemProxy */;
+		};
+		E47B379C7DE08F2B6489E81E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Teller-UIAlertView+Blocks";
+			target = 5AB214DAD9B4AF347B81969A /* Pods-Teller-UIAlertView+Blocks */;
+			targetProxy = F2CE5F50512130F336BAF45B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A2848106C9AFAF1EE483AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E241F4521CEDA1D1C5D2F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		44F74E638D8E5DA463FE9645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34173645C72422FC44508CDD /* Pods-Teller-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Teller-SwiftyJSON/Pods-Teller-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Teller-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Teller-SwiftyJSON/Pods-Teller-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C3535F9E6B43C6EA60FC677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E466EFA76898A52CA8C8C284 /* Pods-Teller-UIAlertView+Blocks-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Teller-UIAlertView+Blocks/Pods-Teller-UIAlertView+Blocks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Teller-UIAlertView+Blocks/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Teller-UIAlertView+Blocks/Pods-Teller-UIAlertView+Blocks.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UIAlertView_Blocks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		70803AE310D22004CC3AF796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE2C21393D258C46978E9302 /* Pods-Teller.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Teller/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Teller/Pods-Teller.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Teller;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3319DAC959BEFD58FFA049C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21A267BB66CD4D1DE7DA577F /* Pods-Teller.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Teller/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Teller/Pods-Teller.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Teller;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB8EC1650199C9A1623F4699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34173645C72422FC44508CDD /* Pods-Teller-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Teller-SwiftyJSON/Pods-Teller-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Teller-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Teller-SwiftyJSON/Pods-Teller-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC93A1420B83090C10FD8FE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E466EFA76898A52CA8C8C284 /* Pods-Teller-UIAlertView+Blocks-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Teller-UIAlertView+Blocks/Pods-Teller-UIAlertView+Blocks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Teller-UIAlertView+Blocks/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Teller-UIAlertView+Blocks/Pods-Teller-UIAlertView+Blocks.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UIAlertView_Blocks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BFA07D148819142405FAA1B /* Build configuration list for PBXNativeTarget "Pods-Teller-SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44F74E638D8E5DA463FE9645 /* Debug */,
+				BB8EC1650199C9A1623F4699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		866CE0748CFBA7F106AC74F7 /* Build configuration list for PBXNativeTarget "Pods-Teller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70803AE310D22004CC3AF796 /* Debug */,
+				A3319DAC959BEFD58FFA049C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C26D22B36AD00FEA3A4B7E3 /* Build configuration list for PBXNativeTarget "Pods-Teller-UIAlertView+Blocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3535F9E6B43C6EA60FC677 /* Debug */,
+				DC93A1420B83090C10FD8FE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C50502FA67BA7A5402098709 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E241F4521CEDA1D1C5D2F4F /* Debug */,
+				1A2848106C9AFAF1EE483AE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5324D6A263A5157DEA3352B9 /* Project object */;
+}
