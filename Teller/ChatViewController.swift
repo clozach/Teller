@@ -191,19 +191,19 @@ class ChatViewController: UITableViewController, ChatConsumer {
    var middleChoice: Chat?
    var rightChoice: Chat?
    @IBAction func leftChoiceSelected() {
-      if let action = leftChoice?.action! {
+      if let action = leftChoice?.action {
          hideAll()
          action()
       }
    }
    @IBAction func middleChoiceSelected() {
-      if let action = middleChoice?.action! {
+      if let action = middleChoice?.action {
          hideAll()
          action()
       }
    }
    @IBAction func rightChoiceSelected() {
-      if let action = rightChoice?.action! {
+      if let action = rightChoice?.action {
          hideAll()
          action()
       }
